@@ -12,6 +12,8 @@
 		16AEC2E4219037F000843289 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AEC2E2219037F000843289 /* Main.storyboard */; };
 		16AEC2E6219037F200843289 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 16AEC2E5219037F200843289 /* Assets.xcassets */; };
 		16AEC2E9219037F200843289 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 16AEC2E7219037F200843289 /* LaunchScreen.storyboard */; };
+		16AEC2F12190389700843289 /* XibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16AEC2F02190389700843289 /* XibView.swift */; };
+		16AEC2F321903CE300843289 /* ReusableXib.xib in Resources */ = {isa = PBXBuildFile; fileRef = 16AEC2F221903CE300843289 /* ReusableXib.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		16AEC2E5219037F200843289 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		16AEC2E8219037F200843289 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		16AEC2EA219037F200843289 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		16AEC2F02190389700843289 /* XibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = XibView.swift; sourceTree = "<group>"; };
+		16AEC2F221903CE300843289 /* ReusableXib.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ReusableXib.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				16AEC2E5219037F200843289 /* Assets.xcassets */,
 				16AEC2E7219037F200843289 /* LaunchScreen.storyboard */,
 				16AEC2EA219037F200843289 /* Info.plist */,
+				16AEC2F02190389700843289 /* XibView.swift */,
+				16AEC2F221903CE300843289 /* ReusableXib.xib */,
 			);
 			path = ReusableXib;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				16AEC2E9219037F200843289 /* LaunchScreen.storyboard in Resources */,
 				16AEC2E6219037F200843289 /* Assets.xcassets in Resources */,
+				16AEC2F321903CE300843289 /* ReusableXib.xib in Resources */,
 				16AEC2E4219037F000843289 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -136,6 +143,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				16AEC2E1219037F000843289 /* ViewController.swift in Sources */,
+				16AEC2F12190389700843289 /* XibView.swift in Sources */,
 				16AEC2DF219037F000843289 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
